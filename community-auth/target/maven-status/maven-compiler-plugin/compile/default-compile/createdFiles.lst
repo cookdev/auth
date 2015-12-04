@@ -1,0 +1,11 @@
+org\anyframe\cloud\auth\security\config\OAuth2AuthorizationConfig.class
+org\anyframe\cloud\auth\security\domain\AnyframeUserDetails.class
+org\anyframe\cloud\auth\service\UserService.class
+org\anyframe\cloud\auth\security\config\SimpleCORSFilter.class
+org\anyframe\cloud\auth\repository\UserRepository.class
+org\anyframe\cloud\auth\security\config\SecurityConfiguration.class
+org\anyframe\cloud\auth\security\config\CorsPreFlightConfiguration.class
+org\anyframe\cloud\auth\interfaces\rest\RegistrationController.class
+org\anyframe\cloud\auth\repository\domain\UserResource.class
+org\anyframe\cloud\auth\AuthServerApplication.class
+org\anyframe\cloud\auth\service\impl\UserServiceImpl.class

@@ -1,0 +1,32 @@
+server:
+  port: 9999
+  contextPath: /uaa
+
+security:
+  userResource:
+    password: password
+
+logging:
+  level:
+    org.springframework: DEBUG
+#    org.springframework.security: DEBUG
+
+# Enable Cross Site Request Forgery support.
+#security.enable-csrf=false
+
+
+
+spring:
+  datasource:
+    url: jdbc:postgresql://70.121.244.13:5432/anyframecloud?currentSchema=community-auth
+    username: anyframecloud
+    password: anyframe00
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    database: POSTGRESQL
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        format_sql: true
